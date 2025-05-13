@@ -99,23 +99,21 @@ Step 3: Import the Database
 
 Tables Created:
 
-users
+-users
 
-restaurants
+-restaurants
 
-menu_items
+-menu_items
 
-cart
+-cart
 
-orders
+-orders
 
-order_items
+-order_items
 
 
-Sample Admin Login:
-
+> Sample Admin Login:
 Email: admin@example.com
-
 Password: admin123
 
 
@@ -124,24 +122,24 @@ Password: admin123
 
 Step 4: Run the Website
 
-Visit in your browser:
+-Visit in your browser:
 
-http://localhost/food_delivery
+ `http://localhost/food_delivery`
 
-Test Flow:
+-Test Flow:
 
-Register/Login
+ Register/Login
 
-Browse & select a restaurant
+ Browse & select a restaurant
 
-Add items to cart
+ Add items to cart
 
-Checkout & place an order
+ Checkout & place an order
 
 
-Admin Panel Access:
+-Admin Panel Access:
 
-http://localhost/food_delivery/admin/index.php
+ `http://localhost/food_delivery/admin/index.php`
 
 
 ---
@@ -183,7 +181,7 @@ Deployment Guide (Live Hosting)
 
 4. Ensure the assets/images/ folder is writable:
 
-chmod 777 assets/images
+   -`chmod 777 assets/images`
 
 
 5. Enable HTTPS with an SSL certificate
@@ -193,41 +191,41 @@ chmod 777 assets/images
 
 ---
 
-Optional Enhancements
+###Optional Enhancements
 
-Integrate payment gateways (Stripe, PayPal)
+-Integrate payment gateways (Stripe, PayPal)
 
-Add email confirmations for orders and sign-ups
-
-
-
----
-
-Security Best Practices
-
-Use strong passwords, especially for the admin account
-
-Implement CSRF protection for all forms
-
-Validate and sanitize all user inputs
-
-Add login rate limiting to prevent brute-force attacks
+-Add email confirmations for orders and sign-ups
 
 
 
 ---
 
-Future Improvements
+###Security Best Practices
 
-Payment integration with Stripe/PayPal
+-Use strong passwords, especially for the admin account
 
-Order tracking and user profile history
+-Implement CSRF protection for all forms
 
-Restaurant search and filtering
+-Validate and sanitize all user inputs
 
-Real-time order status updates using WebSockets
+-Add login rate limiting to prevent brute-force attacks
 
-Dark mode toggle for better UX
+
+
+---
+
+###Future Improvements
+
+-Payment integration with Stripe/PayPal
+
+-Order tracking and user profile history
+
+-Restaurant search and filtering
+
+-Real-time order status updates using WebSockets
+
+-Dark mode toggle for better UX
 
 
 
@@ -273,10 +271,4 @@ For issues or feature suggestions, feel free to reach out:
 Email: johnsonmunisi2021@gmail.com
 
 GitHub Issues: Open an issue in this repository
-
-
-
----
-
-Let me know if you'd like to integrate this into your full README.md.
 
