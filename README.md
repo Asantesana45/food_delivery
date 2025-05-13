@@ -64,45 +64,67 @@ Install the following on **Windows 10**:
 
 ## Installation & Setup
 
-### Step 1: Clone or Copy the Project
-Place the folder in:
+Step 1: Clone the Repository
 
-C:\xampp\htdocs\food_delivery
+Place the project inside your XAMPP htdocs directory:
 
-Or clone using:
-```bash
 git clone <repo-url> C:\xampp\htdocs\food_delivery
+
+
+---
 
 Step 2: Start XAMPP
 
-Open XAMPP Control Panel
+1. Open XAMPP Control Panel
 
-Start Apache and MySQL
 
+2. Start both Apache and MySQL
+
+
+
+
+---
 
 Step 3: Import the Database
 
-1. Visit http://localhost/phpmyadmin
+1. Visit: http://localhost/phpmyadmin
 
 
-2. Create a new database: food_delivery
+2. Create a new database named: food_delivery
 
 
-3. Import db/food_delivery.sql
+3. Import the SQL file from: db/food_delivery.sql
 
 
 
-Tables created:
-users, restaurants, menu_items, cart, orders, order_items
+Tables Created:
 
-> Sample Admin Login:
+users
+
+restaurants
+
+menu_items
+
+cart
+
+orders
+
+order_items
+
+
+Sample Admin Login:
+
 Email: admin@example.com
+
 Password: admin123
 
 
+
+---
+
 Step 4: Run the Website
 
-Visit:
+Visit in your browser:
 
 http://localhost/food_delivery
 
@@ -110,21 +132,30 @@ Test Flow:
 
 Register/Login
 
-Browse & select restaurant
+Browse & select a restaurant
 
 Add items to cart
 
-Checkout
+Checkout & place an order
 
 
-Admin Panel:
-Visit: /admin/index.php
+Admin Panel Access:
 
-Mobile Testing:
+http://localhost/food_delivery/admin/index.php
 
-Open Dev Tools → Toggle device mode (Press F12)
 
-Check hamburger menu and responsiveness
+---
+
+Step 5: Mobile Responsiveness Testing
+
+1. Open browser Dev Tools (Press F12)
+
+
+2. Toggle device mode
+
+
+3. Test the hamburger menu and layout responsiveness
+
 
 
 
@@ -132,37 +163,41 @@ Check hamburger menu and responsiveness
 
 Common Issues & Fixes
 
-TBD based on usage reports
+> To be added soon based on user feedback and usage reports.
+
+
 
 
 ---
 
-Deployment Guide
+Deployment Guide (Live Hosting)
 
-1. Upload food_delivery/ to your live server's public directory
-
-
-2. Set up a MySQL database and import food_delivery.sql
+1. Upload the entire food_delivery/ folder to your live server's public directory
 
 
-3. Update includes/config.php with live DB credentials
+2. Set up a MySQL database and import db/food_delivery.sql
 
 
-4. Ensure assets/images/ is writable:
+3. Update the includes/config.php file with your live database credentials
 
 
+4. Ensure the assets/images/ folder is writable:
 
 chmod 777 assets/images
 
-5. Use HTTPS and SSL Certificate
+
+5. Enable HTTPS with an SSL certificate
 
 
 
-Optional Enhancements:
+
+---
+
+Optional Enhancements
 
 Integrate payment gateways (Stripe, PayPal)
 
-Enable email confirmations
+Add email confirmations for orders and sign-ups
 
 
 
@@ -170,16 +205,13 @@ Enable email confirmations
 
 Security Best Practices
 
-Use strong passwords (especially admin)
+Use strong passwords, especially for the admin account
 
-Implement:
+Implement CSRF protection for all forms
 
-CSRF protection for forms
+Validate and sanitize all user inputs
 
-Input validation/sanitization
-
-Login rate limiting (prevent brute-force attacks)
-
+Add login rate limiting to prevent brute-force attacks
 
 
 
@@ -187,15 +219,15 @@ Login rate limiting (prevent brute-force attacks)
 
 Future Improvements
 
-Payment integration (Stripe, PayPal)
+Payment integration with Stripe/PayPal
 
 Order tracking and user profile history
 
-Restaurant filtering & search functionality
+Restaurant search and filtering
 
-Live order status updates (e.g., WebSockets)
+Real-time order status updates using WebSockets
 
-Dark mode toggle
+Dark mode toggle for better UX
 
 
 
@@ -203,12 +235,12 @@ Dark mode toggle
 
 Contributing
 
-Want to contribute?
+Want to contribute to this project? Follow these steps:
 
-1. Fork the repo
+1. Fork the repository
 
 
-2. Create a branch:
+2. Create a new feature branch:
 
 git checkout -b feature-name
 
@@ -218,7 +250,7 @@ git checkout -b feature-name
 git commit -m "Add feature"
 
 
-4. Push and open a Pull Request:
+4. Push your branch and open a Pull Request:
 
 git push origin feature-name
 
@@ -236,8 +268,15 @@ This project is licensed under the MIT License.
 
 Contact
 
-For issues or feature suggestions, feel free to contact the developer:
+For issues or feature suggestions, feel free to reach out:
 
 Email: johnsonmunisi2021@gmail.com
+
 GitHub Issues: Open an issue in this repository
+
+
+
+---
+
+Let me know if you'd like to integrate this into your full README.md.
 
