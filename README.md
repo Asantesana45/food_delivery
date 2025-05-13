@@ -10,6 +10,7 @@ A **fully responsive**, sleek, and modern food delivery website built using **PH
 
 ---
 
+
 > **Preview:** To see screenshots, open the `Preview-website` folder.
 
 ---
@@ -61,13 +62,12 @@ Install the following on **Windows 10**:
 - Prettier
 - Live Server (for frontend testing)
 
----
----
-
 ## Installation & Setup
 
 ### Step 1: Clone or Copy the Project
-Place the folder in: C:\xampp\htdocs\food_delivery
+Place the folder in:
+
+C:\xampp\htdocs\food_delivery
 
 Or clone using:
 ```bash
@@ -99,6 +99,7 @@ users, restaurants, menu_items, cart, orders, order_items
 Email: admin@example.com
 Password: admin123
 
+
 Step 4: Run the Website
 
 Visit:
@@ -124,6 +125,81 @@ Mobile Testing:
 Open Dev Tools → Toggle device mode (Press F12)
 
 Check hamburger menu and responsiveness
+
+
+
+---
+
+Common Issues & Fixes
+
+TBD based on usage reports
+
+
+---
+
+Deployment Guide
+
+1. Upload food_delivery/ to your live server's public directory
+
+
+2. Set up a MySQL database and import food_delivery.sql
+
+
+3. Update includes/config.php with live DB credentials
+
+
+4. Ensure assets/images/ is writable:
+
+
+
+chmod 777 assets/images
+
+5. Use HTTPS and SSL Certificate
+
+
+
+Optional Enhancements:
+
+Integrate payment gateways (Stripe, PayPal)
+
+Enable email confirmations
+
+
+
+---
+
+Security Best Practices
+
+Use strong passwords (especially admin)
+
+Implement:
+
+CSRF protection for forms
+
+Input validation/sanitization
+
+Login rate limiting (prevent brute-force attacks)
+
+
+
+
+---
+
+Future Improvements
+
+Payment integration (Stripe, PayPal)
+
+Order tracking and user profile history
+
+Restaurant filtering & search functionality
+
+Live order status updates (e.g., WebSockets)
+
+Dark mode toggle
+
+
+
+---
 
 Contributing
 
