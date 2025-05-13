@@ -191,7 +191,7 @@ Deployment Guide (Live Hosting)
 
 ---
 
-###Optional Enhancements
+Optional Enhancements
 
 -Integrate payment gateways (Stripe, PayPal)
 
@@ -201,7 +201,7 @@ Deployment Guide (Live Hosting)
 
 ---
 
-###Security Best Practices
+Security Best Practices
 
 -Use strong passwords, especially for the admin account
 
@@ -215,7 +215,7 @@ Deployment Guide (Live Hosting)
 
 ---
 
-###Future Improvements
+Future Improvements
 
 -Payment integration with Stripe/PayPal
 
@@ -240,17 +240,17 @@ Want to contribute to this project? Follow these steps:
 
 2. Create a new feature branch:
 
-git checkout -b feature-name
+   `git checkout -b feature-name`
 
 
 3. Commit your changes:
 
-git commit -m "Add feature"
+   `git commit -m "Add feature"`
 
 
 4. Push your branch and open a Pull Request:
 
-git push origin feature-name
+    `git push origin feature-name`
 
 
 
