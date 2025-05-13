@@ -2,6 +2,14 @@
 
 A **fully responsive**, sleek, and modern food delivery website built using **PHP, MySQL, HTML, CSS, JavaScript, and Bootstrap**. It allows users to browse restaurants, view menus, manage carts, and place orders. Includes a separate **admin panel** for backend management.
 
+---
+
+## Landing Page Preview
+
+![Landing Page](Preview-website/Landing-page.PNG)
+
+---
+
 > **Preview:** To see screenshots, open the `Preview-website` folder.
 
 ---
